@@ -1,6 +1,21 @@
 /* body{
     background-color: black;
 } */
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+
 .slider{
     height: 80vh;
     width: 100%;
@@ -32,6 +47,7 @@ h1{
 
 h2{
     font-size: 3rem;
+    margin-bottom: 10px;
 
 }
 
@@ -52,6 +68,7 @@ p{
 
 .section{
     padding: 100px 0;
+   
 }
 
 .flex{
@@ -73,3 +90,42 @@ width: 60%;
 .boxed-centrer{
     text-align: center;
 }
+.w25{
+    width: 25%;
+}
+
+.w32{
+    width: 32%;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill img {
+    border-radius: 20px;
+     padding: 10px; 
+     width: 100px;
+     aspect-ratio: 1/1;
+     /* object-fit: contain; */
+}
+
+    .flex-space-between {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        gap: 20px; 
+    }
+    
+    .w32-realisation {
+        flex: 1 1 calc(25% - 20px); 
+        box-sizing: border-box;
+         position: relative;
+    }
+    
+    .w32-realisation img {
+        width: 100%; 
+        height: auto; 
+    }
+    
+    
