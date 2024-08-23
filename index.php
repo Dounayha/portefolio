@@ -3,14 +3,14 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon portfolio</title>
     <link href="./assets/images/CSS/index.css" rel="stylesheet">
  </head>
  <body>
  <header>
         <?php include '_header.php'; ?>
     </header>
-
+    <main>
     <div class="slider">
         <img src="./assets/images/slider.jpg" class="slider-background">
     </div>
@@ -21,6 +21,6 @@
        
         <?php include 'a_propos_de_moi.php'; ?>
         <?php include '_competences.php'; ?>
-    
+        </main>
  </body>
  </html>

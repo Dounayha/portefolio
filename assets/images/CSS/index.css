@@ -32,7 +32,7 @@ h1{
 
 h2{
     font-size: 3rem;
-    
+
 }
 
 p{
@@ -63,4 +63,13 @@ p{
 }
 .w60{
 width: 60%;
+}
+
+.sectiondark{
+    background: black;
+    color: white;
+}
+
+.boxed-centrer{
+    text-align: center;
 }
